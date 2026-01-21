@@ -1,3 +1,7 @@
+/* Affects all the pages that includes this CSS file */
+body{
+    background-color: grey
+}
 h1{
     color: red;
 }
@@ -7,3 +11,19 @@ h2{
 h3{
     color: cadetblue;
 }
+
+h4,
+h5 {
+    color: blue;
+}
+
+#heading{
+    color: azure;
+    background-color: cadetblue;
+}
+
+/* css rules */
+/* selectors */
+/* declaration block */
+/* property */
+/* value */  
