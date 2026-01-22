@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS</title>
+    <style>
+        /* Internal CSS */
+        h1{
+            color: blue;
+            font-size: 2rem;
+        }
+        h2{
+            color: chocolate;
+            font-size: 1.5rem;
+        }
+        #span2{
+            font-weight: bold;
+            color: blue; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Internal CSS -->
+     <h1>Internal CSS</h1>
+     <h2>This page is the example of inline css, see the code for better understanding<span id='span2'> this line was written with id selector using #</span></h2>
+     <p>Internal CSS is defined within the <code>&lt;style&gt;</code> element in the <code>&lt;head&gt;</code> section of an HTML document.</p>
+     <p>This applies for the single HTML page and useful for small HTML projects. It overrides external CSS but doesn't override inline CSS. Inline CSS has higher priority than internal CSS but not than external CSS.</p>
+</body>
+</html>
