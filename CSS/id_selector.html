@@ -4,12 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS using ID</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        #heading {
+            color: azure;
+            background-color: cadetblue;
+        }
+        #footer {
+            color: white;
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
     <h1 id="heading">Title Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptas saepe deleniti quas omnis illo porro, recusandae sapiente praesentium eum!</p>
+    <p>This page has the example of CSS using ID selectors, to demonstrate how to apply unique styles to specific elements. the way to use ID selectors is to add an `id` attribute to the HTML element and then target it with the `#` symbol in the CSS. ID selectors are unique and can only be used once per page, it can be used to style individual elements uniquely.</p>
+    <p>ID selectors have higher priority than class selectors and element selectors.</p>
+    <p>Styling using ID selectors can be written in external CSS files.</p>
     <h1 id="footer">Footer Heading</h1>
-
+    <br>
+    <p>Let's go back to the <a href="index.html">index</a> page</p>
 </body>
 </html>
